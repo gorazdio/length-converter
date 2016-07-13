@@ -6,5 +6,5 @@ A simple library that converts measurement of length from one unit to another. T
 
 ```java
 LengthConverter converter = LengthConverter.builder().setRounding(RoundingMode.DOWN).setScale(2).build();
-converter.convert("10.22", Units.METER, UNITS.INCH);
+converter.convert("10.22", Units.METER, Units.INCH);
 ```
